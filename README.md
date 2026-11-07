@@ -148,9 +148,7 @@ python train_models.py
 streamlit run app.py
 ```
 
-The training dataset itself is not committed to the repository. Download it
-from the UCI link above and save it in the project folder as
-`online_shoppers_intention.csv` before running `train_models.py`.
+The training dataset (`online_shoppers_intention.csv`) is included in this repository, so `train_models.py` can be run directly after cloning and installing the dependencies. The dataset can also be downloaded from the UCI source using `download_data.py`.
 
 ---
 
