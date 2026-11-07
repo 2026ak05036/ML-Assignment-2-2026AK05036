@@ -169,7 +169,7 @@ from the UCI link above and save it in the project folder as
 
 The app **loads the saved models and does not retrain** on uploaded data.
 
-**Live app:** <!-- PASTE YOUR STREAMLIT CLOUD URL HERE AFTER DEPLOYMENT -->
+**Live app:** https://ml-assignment-2-2026ak05036.streamlit.app/
 
 ---
 
