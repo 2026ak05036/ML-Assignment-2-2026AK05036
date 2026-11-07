@@ -93,8 +93,7 @@ to preserve the class imbalance in both halves.
 
 **Models.** Logistic Regression, Decision Tree, K-Nearest Neighbors, Gaussian
 Naive Bayes, and Support Vector Machine — all five trained on the same
-dataset and the same split. `SVC` uses `probability=True` so that predicted
-probabilities are available for the AUC calculation.
+dataset and the same split. SVC uses decision_function scores for AUC instead of predict_proba. AUC measures how well a model ranks positive and negative samples, so predicted probabilities are not required.
 
 **Metrics.** Accuracy, AUC, Precision, Recall, F1 and MCC, all computed on
 the held-out test split.
