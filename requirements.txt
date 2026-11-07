@@ -1,0 +1,9 @@
+# Versions pinned to the BITS Virtual Lab environment so that the models
+# pickled during training load correctly on Streamlit Community Cloud.
+# scikit-learn is the critical pin: a mismatch breaks joblib loading.
+streamlit==1.67.0
+scikit-learn==1.9.1
+pandas==2.2.3
+numpy==2.5.4
+joblib==1.6.0
+matplotlib>=3.8
